@@ -6,10 +6,14 @@
   "scripts": {
     "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomainWirth/Taiji_Quan_asso_YMTT.git"
+  },
   "author": "Romain WIRTH",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RomainWirth/Taiji_Quan_YMTT/issues"
+    "url": "https://github.com/RomainWirth/Taiji_Quan_asso_YMTT/issues"
   },
-  "homepage": "https://github.com/RomainWirth/Taiji_Quan_YMTT#readme"
+  "homepage": "https://github.com/RomainWirth/Taiji_Quan_asso_YMTT#readme"
 }
