@@ -4,22 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./public/img/Logo_YMTT.svg" type="image/x-icon">
+
     <title>Association YMTT</title>
 </head>
 <body>
     <header>
-        <div class="logo_"></div>
-        <nav>
-            <a href="index.html">Accueil</a>
-            <a href="taiji_quan.html">Taiji Quan</a>
-            <a href="asso_ymtt.html">Association YMTT</a>
-            <a href="cours.html">Cours</a>
-            <a href="contact.html">Contact</a>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a href="./index.html" class="navbar-brand">
+                    <img src="./public/img/Logo_YMTT.svg" alt="Logo association YMTT La Valette du Var Toulon">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Taiji Quan</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./public/html/Dropdown_1_Taiji_Quan/taiji_quan_definition.html">Définition</a></li>
+                                <li><a class="dropdown-item" href="./public/html/Dropdown_1_Taiji_Quan/yangjia_quan.html">Le Yangjia Quan</a></li>
+                                <li><a class="dropdown-item" href="./public/html/Dropdown_1_Taiji_Quan/maitre_wang.html">Maître Wang Yen Nien</a></li>
+                                <li><a class="dropdown-item" href="./public/html/Dropdown_1_Taiji_Quan/college_eu.html">Collège Européen des Enseignants</a></li>
+                                <li><a class="dropdown-item" href="./public/html/Dropdown_1_Taiji_Quan/henri_mouthon.html">Henri Mouthon</a></li>
+                                <li><a class="dropdown-item" href="./public/html/Dropdown_1_Taiji_Quan/serge_dreyer.html">Serge Dreyer</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Association YMTT</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./public/html/Dropdown_2_Association_YMTT/enseignant.html">L'Enseignant</a></li>
+                                <li><a class="dropdown-item" href="./public/html/Dropdown_2_Association_YMTT/la_pratique.html">La Pratique</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./public/html/Dropdown_3_Cours/cours.html">Cours</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./public/html/Dropdown_4_Contact/contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
-        <div>
-            <p id="logo"></p>
+        <div class="container">
+            <div id="logo">
+                <img src="./public/img/Logo_YMTT.svg" alt="">
+            </div>
             <h1>TAIJI QUAN & LUTTE CHINOISE</h1>
             <h2>un art martial</h2>
             <p>L'association YMTT vous propose la pratique du Taiji Quan et du Tui Shou (lutte chinoise)</p>
@@ -28,5 +67,6 @@
     <footer>
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
