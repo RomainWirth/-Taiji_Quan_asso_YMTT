@@ -63,8 +63,13 @@ header {
   flex-direction: row;
 }
 
+footer {
+  height: 10vh;
+  background-color: #002626;
+}
+
 #block_page_accueil {
-  height: 90vh;
+  height: 80vh;
   background-color: #FFFFF2;
 }
 
