@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../public/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>    <link rel="shortcut icon" href="./public/img/Logo_YMTT.svg" type="image/x-icon">
 
@@ -15,18 +15,18 @@
     <header>
         <nav class="navbar navbar-expand-lg header-css">
             <div class="container navigation">
-                <a href="./index.html" class="navbar-brand navigation__main-link">
-                    <img class="navigation__main-link--logo" src="../../img/Logo_YMTT.svg" alt="Logo association YMTT La Valette du Var Toulon">
+                <a href="../../index.html" class="navbar-brand navigation__main-link">
+                    <img class="navigation__main-link--logo" src="../../public/img/Logo_YMTT.svg" alt="Logo association YMTT La Valette du Var Toulon">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <!-- <span class="navbar-toggler-icon"> -->
-                        <img src="./public/img/burger_menu.svg" alt="">
+                        <img src="../../public/img/burger_menu.svg" alt="">
                     <!-- </span> -->
                 </button>
                 <div class="collapse navbar-collapse navigation__nav-bar" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 mb-lg-0 navigation__nav-bar--list flexRow alignCenter">
                         <li class="nav-item">
-                            <a class="nav-button" href="index.html">
+                            <a class="nav-button" href="../../index.html">
                                 Accueil
                             </a>
                         </li>
@@ -35,12 +35,12 @@
                                 Taiji Quan
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="./public/html/Dropdown_1_Taiji_Quan/taiji_quan_definition.html">Définition</a></li>
-                                <li><a class="dropdown-item" href="./public/html/Dropdown_1_Taiji_Quan/yangjia_quan.html">Le Yangjia Quan</a></li>
-                                <li><a class="dropdown-item" href="./public/html/Dropdown_1_Taiji_Quan/maitre_wang.html">Maître Wang Yen Nien</a></li>
-                                <li><a class="dropdown-item" href="./public/html/Dropdown_1_Taiji_Quan/college_eu.html">Collège Européen des Enseignants</a></li>
-                                <li><a class="dropdown-item" href="./public/html/Dropdown_1_Taiji_Quan/henri_mouthon.html">Henri Mouthon</a></li>
-                                <li><a class="dropdown-item" href="./public/html/Dropdown_1_Taiji_Quan/serge_dreyer.html">Serge Dreyer</a></li>
+                                <li><a class="dropdown-item" href="../Dropdown_1_Taiji_Quan/taiji_quan_definition.html">Définition</a></li>
+                                <li><a class="dropdown-item" href="../Dropdown_1_Taiji_Quan/yangjia_quan.html">Le Yangjia Quan</a></li>
+                                <li><a class="dropdown-item" href="../Dropdown_1_Taiji_Quan/maitre_wang.html">Maître Wang Yen Nien</a></li>
+                                <li><a class="dropdown-item" href="../Dropdown_1_Taiji_Quan/college_eu.html">Collège Européen des Enseignants</a></li>
+                                <li><a class="dropdown-item" href="../Dropdown_1_Taiji_Quan/henri_mouthon.html">Henri Mouthon</a></li>
+                                <li><a class="dropdown-item" href="../Dropdown_1_Taiji_Quan/serge_dreyer.html">Serge Dreyer</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -48,17 +48,17 @@
                                 L'Association
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="./public/html/Dropdown_2_Association_YMTT/enseignant.html">L'Enseignant</a></li>
-                                <li><a class="dropdown-item" href="./public/html/Dropdown_2_Association_YMTT/la_pratique.html">La Pratique</a></li>
+                                <li><a class="dropdown-item" href="../Dropdown_2_Association_YMTT/enseignant.html">L'Enseignant</a></li>
+                                <li><a class="dropdown-item" href="../Dropdown_2_Association_YMTT/la_pratique.html">La Pratique</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-button" href="./public/html/Dropdown_3_Cours/cours.html">
+                            <a class="nav-button" href="../Dropdown_3_Cours/cours.html">
                                 Cours
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-button" href="./public/html/Dropdown_4_Contact/contact.html">
+                            <a class="nav-button" href="../Dropdown_4_Contact/contact.html">
                                 Contact
                             </a>
                         </li>
@@ -68,7 +68,135 @@
         </nav>
     </header>
     <main>
-        
+        <section id="definitionSectionOne">
+            <h1 alt="Taiji Quan Taichi Taichi Chuan" id="definitionTitle">Le Taiji Quan</h1>
+            <div class="container flexRow justifyAround definition" id="definitionOne">
+                <div class="flexColumn justifyAround alignCenter definition__text">
+                    <h2 class="definition__text--title">Qu'est-ce que le Taiji Quan ?</h2>
+                    <p class="definition__text--paragraphOne">
+                        « Boxe du Grand Faîte », ou « Poing Ultime », ou encore « Action du principe absolu ».<br> 
+                        Aussi Tai Chi Chuan, Taiki-kiuan, Tai-ki-kuen :<br> 
+                        il s'agit d'un système de boxe d'origine chinoise,<br> 
+                        d'un kung fu (geste maîtrisé) classé dans le courant à tendance interne (Nei-Jia),<br> 
+                        au même titre que le Ba-gua-quan (boxe des huit trigrammes)<br> 
+                        et le Xing-yi-quan (boxe du corps et de la pensée).
+                    </p>
+                    <p class="definition__text--paragraphTwo">On en parle souvent comme d'une « boxe contre l'ombre » ou d'une « méditation en mouvement ».</p>
+                    <p class="definition__text--paragraphThree">
+                        Très souvent représenté dans l'esprit du profane<br> 
+                        par des pratiquants effectuant des mouvements lents dans les parcs,<br>
+                        le Taiji Quan n'en demeure pas moins un art martial complet<br>
+                        qui met l'accent sur la lenteur, le calme, la concentration, l'intention etc.<br> 
+                        pour favoriser la moindre utilisation de force physique lors du mouvement ou de l'action martiale.
+                    </p>
+                </div>
+                <div class="flexRow justifyCenter alignCenter">
+                    <img class="definition__image--photo" src="../../public/img/Posture_Taichi_debout_eventail.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="definitionSectionTwo">
+            <div class="container flexColumn justifyAround alignCenter definition__text" id="definitionTwo">
+                <h2 class="definition__text--title">Histoire et Culture</h2>
+                <p class="definition__text--paragraphOne">
+                    Prononcer Tai Chi Chuan (transcription courante des caractères chinois),<br> 
+                    parfois écrit Taiji Quan par transcription de l'alphabet phonétique pinyin de Chine populaire. 
+                </p>
+                <p class="definition__text--paragraphTwo">
+                    Le terme peut être traduit par boxe (Chuan veut dire poing) du faîte suprême ou par l'art du combat du Taichi.<br>
+                    Le Taichi, qui représente l'unité primordiale composée des deux principes opposés et complémentaires Yin / Yang<br>
+                    dont la représentation formée par un cercle extérieur comprenant deux spirales imbriquées de couleur différente,<br> 
+                    marquées d'un point, est maintenant bien connue en occident.
+                </p>
+                <p class="definition__text--paragraphThree">
+                    Le Taiji Quan est donc un art de défense qui suit les principes d'alternance dynamique et équilibrée du plein et du vide,<br> 
+                    de la circularité et de la transformation sans résistance.
+                </p>
+                <p class="definition__text--paragraphThree">
+                    Si on fait remonter son origine au 12e siècle,<br> 
+                    sa formulation actuelle et son nom même daterait du 19e siècle.<br>
+                    La popularité du Tai Ji Quan en Chine puis en Occident est principalement le fait de Yang Luchan (1799 – 1872)<br>
+                    dit « Yang l'invincible » qui est à l'origine du style Yang et de sa descendance.
+                </p>
+            </div>
+        </section>
+        <section id="definitionSectionThree">
+            <div class="container flexRow justifyAround noWrap definition" id="definitionThree">
+                <div class="flexRow justifyCenter alignCenter">
+                    <img class="definition__image--photo" src="../../public/img/Posture_Taichi_debout_une_jambe.jpg" alt="">
+                </div>
+                <div class="flexColumn justifyAround alignCenter definition__text">
+                    <h2 class="definition__text--title">Une pratique martiale complète</h2>
+                    <p class="definition__text--paragraphOne">
+                        Des exercices de base aux formes à mains nues.<br> 
+                        Des formes d'armes (Eventail – Epée – Perche) au Nei Gong (Travail interne). 
+                    </p>
+                    <p class="definition__text--paragraphTwo">
+                        Des applications martiales travaillées à deux,<br> 
+                        directement liées aux formes mains nues au tui shou (poussées des mains).<br>
+                        Du tui shou au sanshou (combat libre).
+                    </p>
+                    <p class="definition__text--paragraphThree">
+                        Le Tai Ji Quan est un art martial à part entière<br> 
+                        qui va utiliser des principes d'application différents des arts martiaux à tendance externe,<br> 
+                        privilégiant ainsi dans sa pratique<br> 
+                        la douceur, la lenteur, l'écoute (de soi-même et de l'autre),<br> 
+                        le centrage, l'axe, l'équilibre,<br> 
+                        la transformation, la mobilité, « l'investir dans la perte » etc.<br>
+                        qui fera toute la singularité de cette pratique.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="definitionSectionFour">
+            <div class="container flexColumn justifyAround noWrap definition" id="definitionFour">
+                <div class="flexColumn justifyAround alignCenter definition__text">
+                    <h2 class="definition__text--title">Une pratique psychomotrice essentielle</h2>
+                    <p class="definition__text--paragraphOne">
+                        La pratique psychomotice des exercices de Taiji Quan agit en profondeur par un entraînement régulier.<br>
+                        Lors de cette pratique, l'intention (Yi) mobilise l'énergie (Qi) dans différentes parties du corps<br> 
+                        selon un enchaînement (Formes de Taiji Quan) lent et régulier. 
+                    </p>
+                    <p class="definition__text--paragraphTwo">
+                        La force ayant le souffle comme support (Qi) que les chinois opposent à la force musculaire brute (Li),<br> 
+                        ne peut s'exprimer que dans le plus grand relâchement. Tout le corps est appelé à participer à l'exercice.
+                    </p>
+                </div>
+                <div class="flexRow justifyCenter alignCenter">
+                    <img class="definition__image--photo" src="../../public/img/Posture_Taichi_epée_paysage.jpg" alt="">
+                </div>
+                <div>
+                    <p class="definition__text--paragraphThree">
+                        Cet exercice dynamique lent de la forme, où l'on transfert en permanence le poids du corps d'un pied sur l'autre,<br>
+                        en expérimentant la pesanteur, renforce et fait prendre conscience de la structure verticale du corps<br>
+                        autour de laquelle s'organise le mouvement. Par la répétition et un éventail postural de plus en plus étendu,<br>
+                        la logique fonctionnelle du corps qui, naturellement a tendance à diminuer avec l'âge, retrouve son caractère spontané.
+                    </p>
+                    <p class="definition__text--paragraphFour">
+                        Les exercices de Taiji Quan sont envisagés comme exercice de prévention pour tout type de public parce qu'ils recherchent,<br> 
+                        à travers le mouvement, le maximum d'efficacité avec le minimum d'effort aidant ainsi bien sûr à cultiver l'énergie vitale.<br> 
+                        Quand on mesure après des années de pratique les déficiences du schéma corporel de plus en en plus fréquentes,<br>
+                        dues au mode de vie sédentaire, ou des pratiques sportives inadaptées et souvent trop intensives,<br>
+                        on ne peut que conseiller au plus grand nombre cette pratique salutaire.
+                    </p>
+                    <p class="definition__text--paragraphFive">
+                        Les effets à court, moyen et long termes portent principalement sur une stabilisation de la tension artérielle,<br>
+                        une amélioration du retour veineux, une amélioration de la glycémie et de la capacité cardio-respiratoire.<br>
+                        En ce qui concerne les maladies liées à la sénescence, de nombreux hôpitaux à travers le monde utilisent maintenant le Taiji Quan<br> 
+                        pour la prise en charge de la maladie de Parkinson, la maladie d'Alzheimer<br>
+                        et la rééducation post accidents cardio-vasculaires ou traumatiques.<br> 
+                        D'autres effets notables ont été signalés quant à la densité osseuse,<br>
+                        à la polyarthrite et au renforcement général du système immunitaire.
+                    </p>
+                    <p class="definition__text--paragraphSix">
+                        Outre le plaisir de la pratique sans aucun matériel extérieur nécessaire<br> 
+                        si ce n'est celui de trouver un espace correspondant à la dimension de deux tatamis,<br> 
+                        approximativement deux mètres par deux mètres,<br>
+                        vous rencontrerez partout où vous vous déplacerez des pratiquants avec qui pratiquer et échanger.
+                    </p>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         

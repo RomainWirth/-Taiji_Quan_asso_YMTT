@@ -1,0 +1,35 @@
+.definition {
+    &__text {
+        &--title {
+            font-weight: bold;
+            margin: 0.5em;
+        }
+    }
+    &__image {
+        padding: 5%;
+        overflow: hidden;
+        &--photo {
+            margin: 0.5em;
+            max-height: auto;
+            max-width: 90%;
+            border-radius: 15px;
+        }
+    }
+}
+
+#definitionTitle {
+    text-align: center;
+    margin: 0.5em;
+}
+
+#definitionSectionOne {
+    text-align: center;
+}
+
+#definitionOne, #definitionThree {
+    @include media-queries-max($width-medium) {flex-direction: column;}
+}
+
+#definitionSectionTwo, #definitionSectionFour {
+    background-color: $color-tertiary;
+}
