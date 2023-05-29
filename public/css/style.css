@@ -31,6 +31,57 @@ a {
   color: #000 !important;
 }
 
+/* ---- FLEXBOX ---- */
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.justifyStart {
+  justify-content: flex-start;
+}
+
+.justifyCenter {
+  justify-content: center;
+}
+
+.justifyEnd {
+  justify-content: flex-end;
+}
+
+.justifyAround {
+  justify-content: space-around;
+}
+
+.justifyBetween {
+  justify-content: space-between;
+}
+
+.alignStart {
+  align-items: flex-start;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.alignEnd {
+  align-items: flex-end;
+}
+
+.alignAround {
+  align-items: space-around;
+}
+
+.alignBetween {
+  align-items: space-between;
+}
+
 @font-face {
   font-family: "Farsan";
   src: url("../../public/typography/Farsan-Regular.ttf");
@@ -92,12 +143,16 @@ p {
   text-align: center;
 }
 
-.nav-buttons {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+.nav-button {
+  display: block;
+  width: 130px;
+  height: 45px;
   margin: 5px;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  background-color: #FFFFF2;
+  border: 1px solid #A55036;
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */

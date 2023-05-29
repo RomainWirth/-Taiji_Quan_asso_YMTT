@@ -17,3 +17,43 @@ a {
     text-decoration-line: none !important; 
     color: $color-black !important;
 }
+
+/* ---- FLEXBOX ---- */
+.flexRow {
+    display: flex; 
+    flex-direction: row;
+}
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+.justifyStart {
+    justify-content: flex-start;
+}
+.justifyCenter {
+    justify-content: center;
+}
+.justifyEnd {
+    justify-content: flex-end;
+}
+.justifyAround {
+    justify-content: space-around;
+}
+.justifyBetween {
+    justify-content: space-between;
+}
+.alignStart {
+    align-items: flex-start;
+}
+.alignCenter {
+    align-items: center;
+}
+.alignEnd {
+    align-items: flex-end;
+}
+.alignAround {
+    align-items: space-around;
+}
+.alignBetween {
+    align-items: space-between;
+}

@@ -1,9 +1,15 @@
-.nav-buttons {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.nav-button {
+    display: block;
+    width: 130px;
+    height: 45px;
     margin: 5px;
-    // border: 1px solid $color-quaternary;
-    // border-radius: 5px;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    background-color: $color-primary;
+    border: 1px solid $color-quaternary;
+    border-radius: 5px;
 }
+
+// .bkg-dropdown {
+//     background-color: $color-primary;
+// }
