@@ -1,0 +1,54 @@
+#yangjiaQuanSectionOne h1 {
+    text-align: center;
+    margin: 0.5em;
+}
+
+#yangjiaQuanSectionTwo, #yangjiaQuanSectionFour {
+    background-color: $color-tertiary;
+}
+
+.yangjiaMain {
+    &__section {
+        padding: 20px 0px;
+        &--text {
+            width: 90%;
+        }
+        &--picture {
+            max-height: 820px;
+            border-radius: 15px;
+            overflow: hidden;
+            & img {
+                height: 780px;  
+                // width: 780px;
+                border-radius: 15px;
+                @include media-queries-max($width-medium) {
+                    height: auto;
+                    max-width: 90%;
+                }
+            }
+        }
+    }
+}
+
+.yangjia {
+    &__portraits {
+        @include media-queries-max($width-medium) {flex-direction: column;}
+        &--masters {
+            margin: 0.5em;
+        }
+    }
+}
+
+.mastersPortraits {
+    height: 256px;
+    width: 180px;
+    border-radius: 15px;
+    overflow: hidden;
+    & img {
+        height: 256px;
+        width: 180px;
+    }
+}
+
+
+

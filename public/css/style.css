@@ -150,6 +150,10 @@ footer {
   font-size: 40px;
 }
 
+.definitionMain__section {
+  padding: 20px 0px;
+}
+
 .definition__text--title {
   font-weight: bold;
   margin: 0.5em;
@@ -182,6 +186,57 @@ footer {
 
 #definitionSectionTwo, #definitionSectionFour {
   background-color: #F5B988;
+}
+
+#yangjiaQuanSectionOne h1 {
+  text-align: center;
+  margin: 0.5em;
+}
+
+#yangjiaQuanSectionTwo, #yangjiaQuanSectionFour {
+  background-color: #F5B988;
+}
+
+.yangjiaMain__section {
+  padding: 20px 0px;
+}
+.yangjiaMain__section--text {
+  width: 90%;
+}
+.yangjiaMain__section--picture {
+  max-height: 820px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.yangjiaMain__section--picture img {
+  height: 780px;
+  border-radius: 15px;
+}
+@media screen and (max-width: 992px) {
+  .yangjiaMain__section--picture img {
+    height: auto;
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .yangjia__portraits {
+    flex-direction: column;
+  }
+}
+.yangjia__portraits--masters {
+  margin: 0.5em;
+}
+
+.mastersPortraits {
+  height: 256px;
+  width: 180px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.mastersPortraits img {
+  height: 256px;
+  width: 180px;
 }
 
 .nav-button {
