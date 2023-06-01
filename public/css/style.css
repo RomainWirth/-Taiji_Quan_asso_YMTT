@@ -44,6 +44,10 @@ p {
   text-align: center;
 }
 
+img {
+  border-radius: 15px;
+}
+
 /* ---- FLEXBOX ---- */
 .flexRow {
   display: flex;
@@ -167,7 +171,6 @@ footer {
   margin: 0.5em;
   max-height: auto;
   max-width: 90%;
-  border-radius: 15px;
 }
 
 #definitionTitle {
@@ -211,7 +214,6 @@ footer {
 }
 .yangjiaMain__section--picture img {
   height: 780px;
-  border-radius: 15px;
 }
 @media screen and (max-width: 992px) {
   .yangjiaMain__section--picture img {
@@ -247,12 +249,17 @@ footer {
 #masterWangPortrait {
   padding: 0.5em;
 }
-#masterWangPortrait img {
-  border-radius: 15px;
-}
 
 .wang__section {
   padding: 20px 0px;
+}
+
+#logoCollegeEuropeen {
+  padding: 0.5em;
+}
+
+#collegeEUsectionTwo, #collegeEUsectionFour {
+  background-color: #F5B988;
 }
 
 .nav-button {

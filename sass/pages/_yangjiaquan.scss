@@ -19,8 +19,6 @@
             overflow: hidden;
             & img {
                 height: 780px;  
-                // width: 780px;
-                border-radius: 15px;
                 @include media-queries-max($width-medium) {
                     height: auto;
                     max-width: 90%;
