@@ -262,6 +262,23 @@ footer {
   background-color: #F5B988;
 }
 
+#collegeImgContainer img {
+  width: 90%;
+}
+
+#henriSectionTwo {
+  background-color: #F5B988;
+}
+
+.henri__section--content img {
+  width: 50%;
+}
+@media screen and (max-width: 992px) {
+  .henri__section--content img {
+    width: 90%;
+  }
+}
+
 .nav-button {
   display: block;
   width: 130px;

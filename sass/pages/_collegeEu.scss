@@ -5,3 +5,9 @@
 #collegeEUsectionTwo, #collegeEUsectionFour {
     background-color: $color-tertiary;
 }
+
+#collegeImgContainer {
+    & img {
+        width: 90%;
+    }
+}

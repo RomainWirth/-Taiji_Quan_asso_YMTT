@@ -1,0 +1,12 @@
+#henriSectionTwo {
+    background-color: $color-tertiary;
+}
+
+.henri {
+    &__section {
+        &--content img {
+            width: 50%;
+            @include media-queries-max($width-medium) {width: 90%;}
+        }
+    }
+}
