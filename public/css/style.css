@@ -35,13 +35,20 @@ a {
   color: #000 !important;
 }
 
+ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0 !important;
+}
+
 section {
-  padding: 2%;
+  padding: 5% 0px;
   box-shadow: 0px 5px 40px #383837;
 }
 
 p {
   text-align: center;
+  padding: 10px 0;
 }
 
 img {
@@ -99,8 +106,37 @@ img {
   align-items: space-between;
 }
 
+.wrap {
+  flex-wrap: wrap;
+}
+
 .noWrap {
   flex-wrap: nowrap;
+}
+
+.gap10 {
+  gap: 10px;
+}
+
+.bkg-secondary {
+  background-color: #F5B988;
+}
+
+.content {
+  height: 100%;
+  max-width: 1440px;
+}
+
+.imgContainer img {
+  width: 90%;
+}
+
+.w90 {
+  width: 90%;
+}
+
+.textAlignCenter {
+  text-align: center;
 }
 
 @font-face {
@@ -144,19 +180,10 @@ footer {
   height: 80vh;
 }
 
-.content {
-  height: 100%;
-  max-width: 1440px;
-}
-
 #mainTitle {
   text-align: center;
   font-family: "Farsan", sans-serif;
   font-size: 40px;
-}
-
-.definitionMain__section {
-  padding: 20px 0px;
 }
 
 .definition__text--title {
@@ -197,13 +224,6 @@ footer {
   margin: 0.5em;
 }
 
-#yangjiaQuanSectionTwo, #yangjiaQuanSectionFour {
-  background-color: #F5B988;
-}
-
-.yangjiaMain__section {
-  padding: 20px 0px;
-}
 .yangjiaMain__section--text {
   width: 90%;
 }
@@ -250,16 +270,8 @@ footer {
   padding: 0.5em;
 }
 
-.wang__section {
-  padding: 20px 0px;
-}
-
 #logoCollegeEuropeen {
   padding: 0.5em;
-}
-
-#collegeEUsectionTwo, #collegeEUsectionFour {
-  background-color: #F5B988;
 }
 
 #collegeImgContainer img {
@@ -279,6 +291,54 @@ footer {
   }
 }
 
+.video {
+  max-width: 500px;
+  max-height: 500px;
+  border-radius: 15px 15px;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px 15px;
+}
+
+iframe {
+  height: 265px;
+  min-width: 100%;
+  max-width: 100%;
+  border: 2px #FFFFF2;
+}
+
+.bold {
+  font-weight: bold !important;
+}
+
+.underline {
+  text-decoration-line: underline !important;
+}
+
+.margin10px {
+  margin: 10px 0;
+}
+
+#location {
+  width: 90%;
+}
+#location div {
+  width: 40%;
+}
+@media screen and (max-width: 992px) {
+  #location div {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 992px) {
+  #location {
+    flex-direction: column;
+  }
+}
+
 .nav-button {
   display: block;
   width: 130px;
@@ -289,6 +349,17 @@ footer {
   background-color: #FFFFF2;
   border: 1px solid #A55036;
   border-radius: 5px;
+}
+
+.button {
+  background-color: #A55036;
+  height: 80px;
+  width: 180px;
+  font-size: 2em !important;
+  border-radius: 15px;
+  text-align: center;
+  line-height: 2.5em;
+  box-shadow: 0px 5px 40px #383837;
 }
 
 /*# sourceMappingURL=style.css.map */

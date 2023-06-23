@@ -3,13 +3,8 @@
     margin: 0.5em;
 }
 
-#yangjiaQuanSectionTwo, #yangjiaQuanSectionFour {
-    background-color: $color-tertiary;
-}
-
 .yangjiaMain {
     &__section {
-        padding: 20px 0px;
         &--text {
             width: 90%;
         }
@@ -47,6 +42,3 @@
         width: 180px;
     }
 }
-
-
-
