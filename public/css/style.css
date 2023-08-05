@@ -86,6 +86,10 @@ img {
   justify-content: space-between;
 }
 
+.justifyEven {
+  justify-content: space-evenly;
+}
+
 .alignStart {
   align-items: flex-start;
 }
@@ -174,6 +178,12 @@ img {
 footer {
   height: 10vh;
   background-color: #002626;
+}
+footer div p {
+  color: white !important;
+}
+footer div p a {
+  color: white !important;
 }
 
 #block_page_accueil {

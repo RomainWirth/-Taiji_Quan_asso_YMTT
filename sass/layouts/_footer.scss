@@ -1,4 +1,13 @@
 footer {
     height: 10vh;
     background-color: $color-quinary;
+    & div {
+        & p {
+            color: white!important;
+            & a {
+                color: white!important;
+            }
+        }
+    }
 }
+
