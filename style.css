@@ -7,6 +7,8 @@ main {
 h1, h2, h3, h4, p, div, ul, ol {
   margin: 0;
   padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 h1, h2, h3 {
@@ -20,7 +22,7 @@ h1 {
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 5px;
 }
 
@@ -82,10 +84,6 @@ img {
 
 .justifyBetween {
   justify-content: space-between;
-}
-
-.justifyEven {
-  justify-content: space-evenly;
 }
 
 .alignStart {
@@ -177,12 +175,6 @@ footer {
   height: 10vh;
   background-color: #002626;
 }
-footer div p {
-  color: white !important;
-}
-footer div p a {
-  color: white !important;
-}
 
 #block_page_accueil {
   height: 80vh;
@@ -192,10 +184,6 @@ footer div p a {
   text-align: center;
   font-family: "Farsan", sans-serif;
   font-size: 40px;
-}
-
-#subtitle {
-  font-size: 16px !important;
 }
 
 .definition__text--title {
