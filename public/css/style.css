@@ -196,6 +196,10 @@ footer div p a {
   font-size: 40px;
 }
 
+#subtitle {
+  font-size: 18px;
+}
+
 .definition__text--title {
   font-weight: bold;
   margin: 0.5em;
